@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+.message {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(252, 111, 238);
+    z-index: 2;
+}
+
+.message h3 {
+    font-weight: 500;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 100px;
+}
+
+.titles {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.titles h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.titles h3 {
+    font-family: 'Rajdhani';
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.flower {
+    margin-top: 120px;
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 100px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 150px;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+  
+.valueButton {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eeee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+.valueButton:hover {
+    cursor: pointer;
+}
+  
+form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+}
+  
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+  
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+  
+input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+  
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.loginButton {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    margin: auto;
+    display: block;
+    margin-top: -45px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.208);
+    transform: scale(1.02);
+}
+
+.buyButton {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    margin: auto;
+    display: block;
+    margin-top: -45px;
+    margin-bottom: 150px;
+    cursor: pointer;
+    display: none;
+}
+
+.buyButton:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.208);
+    transform: scale(1.02);
+}
+
+.shippingForm {
+    background-color: white;
+    width: 500px;
+    height: 670px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0px 50px 100px rgba(29, 29, 29, 0.405);
+    border-radius: 15px;
+    display: none;
+}
+
+.shippingForm header {
+    font-family: 'Rajdhani';
+    font-size: 35px;
+    padding: 15px 0;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fa78aa;
+    border-radius: 15px 15px 0 0;
+}
+
+.shippingFormButton {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -67px;
+    right: 8px;
+    border-radius: 15px;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: white;
+    cursor: pointer;
+}
+
+.shippingFormButton p {
+    margin-top: 1px;
+    margin-left: -1px;
+}
+
+.formContent {
+    font-family: 'Rajdhani';
+    width: 75%;
+    font-size: 19px;
+    margin-top: 5px;
+    text-align: left;
+    margin: 15px auto;
+}
+
+.formContent input {
+    font-family: 'Rajdhani';
+    color: rgb(67, 67, 67);
+    width: 100%;
+    margin-bottom: 20px;
+    height: 24px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.formContent input:focus {
+    outline-width: 0;
+}
+
+.formContentHalf {
+    display: grid;
+    margin-right: 30px;
+}
+
+.formContentHalf input {
+    width: 168px;
+}
+
+.format4 {
+    display: flex;
+}
+
+.sendButton {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ededed;
+    color: rgb(73, 73, 73);
+    border: none;
+    margin: 35px auto;
+    display: block;
+    cursor: pointer;
+    border: 1px solid rgb(137, 137, 137);
+}
+
+.sendButton:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.updateInfo {
+    display: block;
+    text-align: center;
+    margin-top: 170px;
+    font-family: 'Rajdhani';
+    color: #696969;
+    display: none;
+}
+
+.updateInfo img {
+    margin-bottom: 40px;
+    width: 100px;
+}
+
+@media (min-width: 1500px) {
+    .titles h1 {
+        font-size: 60px;
+    }
+    .titles h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .headerContent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flower {
+        padding-top: 0;
+        margin-top: 0;
+        width: 360px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 500px) {
+    .flower {
+        width: 300px;
+        height: 300px;
+    }
+}

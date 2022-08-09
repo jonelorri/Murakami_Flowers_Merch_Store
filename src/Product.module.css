@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+
+.container {
+    text-align: center;
+    width: 300px;
+    font-family: 'Rajdhani';
+    position: relative;
+    border-radius: 10px;
+}
+
+.image {
+    width: 300px;
+}
+
+.container h1 {
+    font-size: 30px;
+}
+
+.container h2 {
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.price {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
